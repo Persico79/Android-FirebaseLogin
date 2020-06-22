@@ -7,7 +7,7 @@
 - Login by Facebook and Google on Firebase
 - Navigation menu which takes the profile infos (photo, username and password)
 
-#To let it works
+# To let it works
 - register to Firebase
 - connect to Firebase by AndroidStudio (Tools-->Firebase-->Authentification)
 - change the facebook and google token (please follow their documentations)
