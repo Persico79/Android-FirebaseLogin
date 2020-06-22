@@ -1,4 +1,4 @@
-# Powered by Persico
+
 # Firebase Login UI with Facebook and Google Auth
 
 # Features
@@ -13,3 +13,4 @@
 - change the facebook and google token (please follow their documentations)
 
 
+Powered by Persico
