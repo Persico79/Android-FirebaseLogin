@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Persico Login</string>
+    <string name="new_account">New Account</string>
+    <string name="signup_desc">Start by entering your info anc check your email for the verification</string>
+
+    <string name="login_desc">Enter your login details to access your account</string>
+    <string name="log_in">Log In</string>
+    <string name="log_out">Logout</string>
+
+    <string name="reset_pass_message">Insert here your email address and check your email to reset your password.</string>
+    <string name="powered">Powered by Persico</string>
+    <string name="facebook_app_id">254355272333717</string>
+    <string name="fb_login_protocol_scheme">fb254355272333717</string>
+
+    <string name="navigation_open">navigation_open</string>
+    <string name="navigation_closed">navigation_closed</string>
+
+</resources>

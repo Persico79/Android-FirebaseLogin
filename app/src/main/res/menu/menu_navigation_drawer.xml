@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Account"
+            android:icon="@drawable/ic_account_navigation"
+            />
+        <item
+            android:title="Settings"
+            android:icon="@drawable/ic_settings"
+            />
+        <item
+            android:title="Change contact numbers"
+            android:icon="@drawable/ic_phone"
+            />
+        <item
+            android:title="Change account"
+            android:icon="@drawable/ic_logout"
+            />
+        <item
+            android:title="Exit"
+            android:icon="@drawable/ic_exit"
+            />
+
+
+    </group>
+</menu>

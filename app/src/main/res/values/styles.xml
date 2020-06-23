@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/gradientLightStart</item>
+        <item name="colorPrimaryDark">@color/gradientLightEnd</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoToolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/gradientLightStart</item>
+        <item name="colorPrimaryDark">@color/gradientLightStart</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

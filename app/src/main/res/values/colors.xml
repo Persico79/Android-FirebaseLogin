@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1B5068</color>
+    <color name="colorPrimaryDark">#062A47</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="bg_color">#f3f5f9</color>
+    <color name="bg_color_register_activity">#4881F3</color>
+    <color name="darkgrey">#424242</color>
+    <color name="gradientViolet">#8A52E9</color>
+    <color name="gradientLightEnd">#062A47</color>
+    <color name="gradientLightStart">#256887</color>
+    <color name="white">#ffffff</color>
+
+    <color name="nero">#000000</color>
+    <color name="orange">#fdad02</color>
+    <color name="testo_normale">#FCFDFD</color>
+
+
+</resources>

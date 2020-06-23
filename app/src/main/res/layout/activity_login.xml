@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:fitsSystemWindows="false"
+    android:theme="@style/NoToolbar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingTop="66dp"
+            android:paddingRight="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:gravity="center"
+                    android:text="@string/log_in"
+                    android:textColor="@color/testo_normale"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:gravity="center"
+                    android:text="@string/login_desc"
+                    android:textColor="@color/testo_normale"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circularbordersolidtop"
+                android:gravity="center"
+                android:padding="18dp">
+
+                <EditText
+                    android:id="@+id/input_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/ic_user"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:hint="  Email"
+                    android:inputType="textEmailAddress"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circularbordersolidbottom"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="18dp">
+
+                <EditText
+                    android:id="@+id/input_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/ic_lock"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:hint="  Your Password"
+                    android:inputType="textPassword"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/link_forgotpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/proximanovaregular"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="Forgot Password?"
+                android:textColor="#FCFCFD"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="14dp"
+                android:background="@drawable/buttonbackground"
+                android:fontFamily="@font/proximanovaregular"
+                android:padding="16dp"
+                android:text="Login"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:id="@+id/link_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:gravity="center"
+                    android:text="No account yet?"
+                    android:textColor="@color/testo_normale"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:gravity="center"
+                    android:text=" Create One"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16dip" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/othersLoginTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="OR"
+                    android:textColor="@color/testo_normale"
+                    android:textSize="22sp" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraint_buttons_id"
+                    android:layout_width="250dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <com.facebook.login.widget.LoginButton
+                        android:id="@+id/facebook_button"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        facebook:layout_constraintEnd_toEndOf="@+id/google_button"
+                        facebook:layout_constraintStart_toStartOf="@+id/google_button"
+                        facebook:layout_constraintTop_toTopOf="parent"
+                        />
+
+                    <com.google.android.gms.common.SignInButton
+                        android:id="@+id/google_button"
+                        android:layout_width="240dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="10dp"
+                        facebook:layout_constraintEnd_toEndOf="parent"
+                        facebook:layout_constraintStart_toStartOf="parent"
+                        facebook:layout_constraintTop_toBottomOf="@+id/facebook_button" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
