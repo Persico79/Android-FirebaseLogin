@@ -12,5 +12,6 @@
 - connect to Firebase by AndroidStudio (Tools-->Firebase-->Authentification)
 - change the facebook and google token (please follow their documentations)
 
+(https://github.com/persicoandroid/website/blob/master/fotoLoginFirebase.jpg)
 
 Powered by Persico
