@@ -9,8 +9,8 @@
 
     <string name="reset_pass_message">Insert here your email address and check your email to reset your password.</string>
     <string name="powered">Powered by Persico</string>
-    <string name="facebook_app_id">254355272333717</string>
-    <string name="fb_login_protocol_scheme">fb254355272333717</string>
+    <string name="facebook_app_id">XXXXXXXXXXXXXX</string>
+    <string name="fb_login_protocol_scheme">XXXXXXXXXXXX</string>
 
     <string name="navigation_open">navigation_open</string>
     <string name="navigation_closed">navigation_closed</string>
